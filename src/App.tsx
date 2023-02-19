@@ -9,7 +9,6 @@ import VideoCardGroup from "./components/VideoCardGroup";
 import { getAllVideoDetails } from "./data-providers/video-data-provider";
 import videosContext from "./context-defs/videos";
 import * as fake from "./_fakes_";
-import "./map-video-types";
 
 export default function App() {
   const load3Video = useCallback(() => getAllVideoDetails(3), []);
