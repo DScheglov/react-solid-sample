@@ -1,5 +1,5 @@
 import { useCardComponents } from "../../context-defs/cardComponents";
-import { StreamDetails } from "../../domain/StreamVideoDetails";
+import { StreamDetails } from "../domain";
 
 const StreamDescription = ({ watching, description }: StreamDetails) => {
   const { Details } = useCardComponents();

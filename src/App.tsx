@@ -1,4 +1,3 @@
-import "./styles.css";
 import { useCallback } from "react";
 import VideoCard from "./components/VideoCard";
 import CardGroup from "./components/CardGroup";

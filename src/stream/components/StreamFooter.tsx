@@ -1,6 +1,6 @@
 import React from "react";
 import { useCardComponents } from "../../context-defs/cardComponents";
-import { StreamDetails } from "../../domain/StreamVideoDetails";
+import { StreamDetails } from "../domain";
 
 type StreamFooterProps = Pick<StreamDetails, "startedAt">;
 
