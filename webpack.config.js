@@ -37,6 +37,7 @@ module.exports = {
   ],
   devServer: {
     static: './public',
+    allowedHosts: "all",
     hot: true,
   },
 };
